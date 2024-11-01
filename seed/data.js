@@ -1,8 +1,8 @@
 import db from "../db/connection.js";
-import User from "../models/User.js";
-import JobPost from "../models/JobPost.js";
-import Comment from "../models/Comment.js";
-import Bid from "../models/Bid.js";
+import User from "../models/user.js";
+import JobPost from "../models/jobPost.js";
+import Comment from "../models/comment.js";
+import Bid from "../models/bid.js";
 import bcrypt from "bcrypt";
 
 const insertData = async () => {
